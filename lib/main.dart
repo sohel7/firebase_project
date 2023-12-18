@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:gatex_firebase/count.dart';
 import 'package:gatex_firebase/firebase_options.dart';
 
 void main()async {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         useMaterial3: false,
       ),
-      home: const MyHomePage(),
+      home: MatchListScreen(),
     );
   }
 }
